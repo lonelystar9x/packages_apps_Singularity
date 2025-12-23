@@ -56,7 +56,7 @@
 
     <!-- Themes - Lock/Unlock Sounds -->
     <string-array name="themes_lock_unlock_sounds_entries" translatable="false">
-        <item>Default</item>
+        <item>@string/default_value</item>
         <item>Amazon Fire</item>
         <item>Asus Zenfone Max</item>
         <item>Essential PH-1</item>
@@ -865,18 +865,18 @@
 
     <!-- Visual Effects -->
     <string-array name="wallpaper_effect_entries">
-        <item>None</item>
-        <item>Blur Grain</item>
-        <item>Chromatic aberration</item>
-        <item>Vignette</item>
-        <item>Pixelation</item>
-        <item>Saturation</item>
-        <item>Sepia</item>
-        <item>Sharpen</item>
-        <item>Grayscale</item>
-        <item>Negative</item>
-        <item>Radial blur</item>
-        <item>Posterize</item>
+        <item>@string/lockscreen_albumart_filter_none</item>
+        <item>@string/lockscreen_albumart_filter_blur_gain</item>
+        <item>@string/lockscreen_albumart_filter_chromatic_aberration</item>
+        <item>@string/lockscreen_albumart_filter_vignette</item>
+        <item>@string/lockscreen_albumart_filter_mosaic_effect</item>
+        <item>@string/lockscreen_albumart_filter_saturation</item>
+        <item>@string/lockscreen_albumart_filter_sepia</item>
+        <item>@string/lockscreen_albumart_filter_sharpen</item>
+        <item>@string/lockscreen_albumart_filter_grayscale</item>
+        <item>@string/lockscreen_albumart_filter_negative</item>
+        <item>@string/lockscreen_albumart_filter_radial_blur</item>
+        <item>@string/lockscreen_albumart_filter_posterize</item>
     </string-array>
     
     <string-array name="wallpaper_effect_values" translatable="false">
@@ -1054,14 +1054,14 @@
 
     <!-- Media Art Filter Options -->
     <string-array name="lockscreen_media_art_filter_entries">
-        <item>None</item>
-        <item>Blur</item>
-        <item>Grayscale</item>
-        <item>Sepia</item>
-        <item>Custom tint</item>
-        <item>Invert</item>
-        <item>Grayscale + Blur</item>
-        <item>Pixelation/Mosaic effect</item>
+        <item>@string/lockscreen_albumart_filter_none</item>
+        <item>@string/lockscreen_albumart_filter_blur</item>
+        <item>@string/lockscreen_albumart_filter_grayscale</item>
+        <item>@string/lockscreen_albumart_filter_sepia</item>
+        <item>@string/lockscreen_albumart_filter_custom_tint</item>
+        <item>@string/lockscreen_albumart_filter_invert</item>
+        <item>@string/lockscreen_albumart_filter_grayblur</item>
+        <item>@string/lockscreen_albumart_filter_mosaic_effect</item>
     </string-array>
     
     <string-array name="lockscreen_media_art_filter_values">
@@ -1119,11 +1119,11 @@
 
     <!-- Edge light -->
     <string-array name="edge_light_color_mode_entries" translatable="false">
-        <item>accent</item>
-        <item>notification</item>
-        <item>wallpaper</item>
-        <item>custom</item>
-        <item>Rainbow Gradient</item>
+        <item>@string/accent_color</item>
+        <item>@string/notification_color</item>
+        <item>@string/wallpaper_color</item>
+        <item>@string/custom_color</item>
+        <item>@string/rainbow_gradient_color</item>
     </string-array>
 
     <string-array name="edge_light_color_mode_values">
@@ -1135,8 +1135,8 @@
     </string-array>
 
     <string-array name="edge_light_style_entries">
-        <item>Default (Left/Right)</item>
-        <item>Rounded (4-Sides)</item>
+        <item>@string/left_right</item>
+        <item>@string/four_side</item>
     </string-array>
 
     <string-array name="edge_light_style_values">
@@ -1145,12 +1145,12 @@
     </string-array>
 
     <string-array name="edge_light_animation_entries">
-        <item>Standard</item> 
-        <item>Breathing</item>
-        <item>Wave</item>
-        <item>Sparkle</item>
-        <item>Chase</item>
-        <item>Comet</item>
+        <item>@string/standard_string</item> 
+        <item>@string/breathing_string</item>
+        <item>@string/wave_string</item>
+        <item>@string/sparkle_string</item>
+        <item>@string/chase_string</item>
+        <item>@string/comet_string</item>
     </string-array>
 
     <string-array name="edge_light_animation_values">
@@ -1286,9 +1286,9 @@
     </string-array>
 
     <string-array name="chip_alignment_entries">
-        <item>Left</item>
-        <item>Center</item>
-        <item>Right</item>
+        <item>@string/left_string</item>
+        <item>@string/center_string</item>
+        <item>@string/right_string</item>
     </string-array>
 
     <string-array name="chip_alignment_values" translatable="false">
@@ -1299,8 +1299,8 @@
 
     <!-- UDFPS Icon Type -->
     <string-array name="udfps_icon_type_entries">
-        <item>Prebuilt icons</item>
-        <item>Custom icon</item>
+        <item>@string/prebuilt_icons</item>
+        <item>@string/custom_icon</item>
     </string-array>
 
     <string-array name="udfps_icon_type_values" translatable="false">
@@ -1330,9 +1330,9 @@
 
     <!-- Lock Glymps Source -->
     <string-array name="lock_glymps_source_entries">
-        <item>Random Wallpapers (Picsum)</item>
-        <item>Custom URL List</item>
-        <item>Local Folder</item>
+        <item>@string/random_wallpapers</item>
+        <item>@string/custom_list</item>
+        <item>@string/local_folder</item>
     </string-array>
 
     <string-array name="lock_glymps_source_values" translatable="false">
@@ -1356,9 +1356,9 @@
 
     <!-- Lock Glymps Cache Size -->
     <string-array name="lock_glymps_cache_size_entries">
-        <item>3 wallpapers (~30MB)</item>
-        <item>5 wallpapers (~50MB)</item>
-        <item>10 wallpapers (~100MB)</item>
+        <item>@string/three_wallpapers</item>
+        <item>@string/five_wallpapers</item>
+        <item>@string/ten_wallpapers</item>
     </string-array>
 
     <string-array name="lock_glymps_cache_size_values" translatable="false">
@@ -1368,9 +1368,9 @@
     </string-array>
 
     <string-array name="lock_glymps_change_on_entries">
-        <item>Screen turns on</item>
-        <item>Screen turns off (recommended)</item>
-        <item>Timer based</item>
+        <item>@string/screen_turns_on</item>
+        <item>@string/screen_turns_off</item>
+        <item>@string/timer_based</item>
     </string-array>
 
     <string-array name="lock_glymps_change_on_values">
@@ -1380,16 +1380,16 @@
     </string-array>
 
     <string-array name="lock_glymps_timer_entries">
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
+        <item>@string/custom_timeout_summary_5mins</item>
+        <item>@string/custom_timeout_summary_10mins</item>
+        <item>@string/custom_timeout_summary_15mins</item>
+        <item>@string/custom_timeout_summary_30mins</item>
+        <item>@string/custom_timeout_summary_1hour</item>
+        <item>@string/custom_timeout_summary_2hours</item>
+        <item>@string/custom_timeout_summary_3hours</item>
+        <item>@string/custom_timeout_summary_6hours</item>
+        <item>@string/custom_timeout_summary_12hours</item>
+        <item>@string/custom_timeout_summary_24hours</item>
     </string-array>
 
     <string-array name="lock_glymps_timer_values" translatable="false">
@@ -1406,9 +1406,9 @@
     </string-array>
 
     <string-array name="font_mode_entries">
-        <item>Prebuilt fonts</item>
-        <item>Custom font from storage</item>
-        <item>Download from GitHub</item>
+        <item>@string/prebuilt_string</item>
+        <item>@string/custom_string</item>
+        <item>@string/github_string</item>
     </string-array>
     
     <string-array name="font_mode_values">
@@ -1419,9 +1419,9 @@
 
     <!-- Ripple Shape Options -->
     <string-array name="ripple_shape_entries">
-        <item>Circle</item>
-        <item>Rounded Box</item>
-        <item>Nothing Animation</item>
+        <item>@string/circle_tring</item>
+        <item>@string/rounded_box</item>
+        <item>@string/nothing_animation</item>
     </string-array>
 
     <string-array name="ripple_shape_values" translatable="false">
@@ -1431,9 +1431,9 @@
     </string-array>
 
     <string-array name="qs_media_player_entries">
-        <item>Disabled</item>
-        <item>Stock player</item>
-        <item>Mini player</item>
+        <item>@string/disabled</item>
+        <item>@string/stock_player</item>
+        <item>@string/mini_player</item>
     </string-array>
 
     <string-array name="qs_media_player_values" translatable="false">
@@ -1459,9 +1459,9 @@
     </string-array>
 
     <string-array name="nowplaying_icon_style_entries">
-        <item>Disabled</item>
-        <item>App icon</item>
-        <item>Music note icon</item>
+        <item>@string/disabled</item>
+        <item>@string/app_icon</item>
+        <item>@string/music_note_icon</item>
     </string-array>
 
     <string-array name="nowplaying_icon_style_values" translatable="false">
@@ -1472,14 +1472,14 @@
 
     <!-- Charging Animation Style Options -->
     <string-array name="charging_animation_style_entries">
-        <item>Bubble Stream</item>
-        <item>Neon glow spray</item>
-        <item>Beam effects</item>
-        <item>Plasma effect</item>
-        <item>Quantum Sparks</item>
-        <item>Nebula Diffusion</item>
-        <item>Digital Matrix</item>
-        <item>Geoflow</item>
+        <item>@string/bubble_stream</item>
+        <item>@string/neon_glow_spray</item>
+        <item>@string/beam_effects</item>
+        <item>@string/plasma_effect</item>
+        <item>@string/quantum_sparks</item>
+        <item>@string/nebula_diffusion</item>
+        <item>@string/digital_matrix</item>
+        <item>@string/geo_flow</item>
     </string-array>
 
     <string-array name="charging_animation_style_values" translatable="false">
@@ -1495,9 +1495,9 @@
 
     <!-- Charging Animation Color Mode Options -->
     <string-array name="charging_color_mode_entries">
-        <item>Default green</item>
-        <item>Accent color</item>
-        <item>Rainbow</item>
+        <item>@string/default_green</item>
+        <item>@string/accent_color</item>
+        <item>@string/rainbow_string</item>
     </string-array>
 
     <string-array name="charging_color_mode_values" translatable="false">
@@ -1523,10 +1523,10 @@
 
     <!-- QS Tile Shape Style -->
     <string-array name="qs_tile_shape_style_entries">
-        <item>Rounded (Circular)</item>
-        <item>Rounded Rectangle</item>
-        <item>Rounded Active</item>
-        <item>Rectangle Active</item>
+        <item>@string/rounded_string</item>
+        <item>@string/rounded_rectangle</item>
+        <item>@string/rounded_active</item>
+        <item>@string/rectangle_active</item>
     </string-array>
 
     <string-array name="qs_tile_shape_style_values">

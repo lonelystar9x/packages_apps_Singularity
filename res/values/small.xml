@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The risingOS Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="default_green">Default green</string>
+    <string name="rainbow_string">Rainbow</string>
+    <string name="bubble_stream">Bubble Stream</string>
+    <string name="neon_glow_spray">Neon glow spray</string>
+    <string name="beam_effects">Beam effects</string>
+    <string name="plasma_effect">Plasma effect</string>
+    <string name="quantum_sparks">Quantum Sparks</string>
+    <string name="nebula_diffusion">Nebula Diffusion</string>
+    <string name="digital_matrix">Digital Matrix</string>
+    <string name="geo_flow">Geoflow</string>
+    <string name="app_icon">App icon</string>
+    <string name="music_note_icon">Music note icon</string>
+    <string name="stock_player">Stock player</string>
+    <string name="mini_player">Mini player</string>
+    <string name="circle_tring">Circle</string>
+    <string name="rounded_box">Rounded Box</string>
+    <string name="nothing_animation">Nothing Animation</string>
+    <string name="prebuilt_string">Prebuilt fonts</string>
+    <string name="custom_string">Custom font from storage</string>
+    <string name="github_string">Download from GitHub</string>
+    <string name="custom_timeout_summary_15mins">15 minutes</string>
+    <string name="custom_timeout_summary_3hours">3 hours</string>
+    <string name="custom_timeout_summary_6hours">6 hours</string>
+    <string name="screen_turns_on">Screen turns on</string>
+    <string name="screen_turns_off">Screen turns off (recommended)</string>
+    <string name="timer_based">Timer based</string>
+    <string name="three_wallpapers">3 wallpapers (~30MB)</string>
+    <string name="five_wallpapers">5 wallpapers (~50MB)</string>
+    <string name="ten_wallpapers">10 wallpapers (~100MB)</string>
+    <string name="random_wallpapers">Random Wallpapers (Picsum)</string>
+    <string name="custom_list">Custom URL List</string>
+    <string name="local_folder">Local Folder</string>
+    <string name="prebuilt_icons">Prebuilt icons</string>
+    <string name="custom_icon">Custom icon</string>
+    <string name="left_string">Left</string>
+    <string name="center_string">Center</string>
+    <string name="right_string">Right</string>
+    <string name="standard_string">Standard</string>
+    <string name="breathing_string">Breathing</string>
+    <string name="wave_string">Wave</string>
+    <string name="sparkle_string">Sparkle</string>
+    <string name="chase_string">Chase</string>
+    <string name="comet_string">Comet</string>
+    <string name="left_right">Default (Left/Right)</string>
+    <string name="four_side">Rounded (4-Sides)</string>
+    <string name="lockscreen_albumart_filter_sepia">Sepia</string>
+    <string name="lockscreen_albumart_filter_custom_tint">Custom tint</string>
+    <string name="lockscreen_albumart_filter_invert">Invert</string>
+    <string name="lockscreen_albumart_filter_mosaic_effect">Pixelation</string>
+    <string name="lockscreen_albumart_filter_chromatic_aberration">Chromatic aberration</string>
+    <string name="lockscreen_albumart_filter_vignette">Vignette</string>
+    <string name="lockscreen_albumart_filter_saturation">Saturation</string>
+    <string name="lockscreen_albumart_filter_sharpen">Sharpen</string>
+    <string name="lockscreen_albumart_filter_negative">Negative</string>
+    <string name="lockscreen_albumart_filter_blur_gain">Blur Grain</string>
+    <string name="lockscreen_albumart_filter_radial_blur">Radial blur</string>
+    <string name="lockscreen_albumart_filter_posterize">Posterize</string>
+    <string name="override_mock_location_on">Mock locations are hidden from apps</string>
+    <string name="override_mock_location_off">Apps can detect mock locations</string>
+    <string name="rounded_string">Rounded (Circular)</string>
+    <string name="rounded_rectangle">Rounded Rectangle</string>
+    <string name="rounded_active">Rounded Active</string>
+    <string name="rectangle_active">Rectangle Active</string>
+</resources>
